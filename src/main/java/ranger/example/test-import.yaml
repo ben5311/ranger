@@ -1,0 +1,10 @@
+values:
+  names: import("names.yaml")
+  User:
+    age: random(18..60)
+    sex: weighted([("männlich", 40), ("weiblich", 60)])
+    firstname: switch($sex => [$names.male_firstname, $names.female_firstname])
+    lastname: $names.lastname
+    fullname: string("{} {}", $firstname, $lastname)
+
+output: $User

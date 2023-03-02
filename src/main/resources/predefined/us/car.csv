@@ -1,0 +1,344 @@
+make;model;year;version;body_type;cylinders;engine_size_l;power_hp;torque_lbf_ft;drive_type;transmission;engine_type
+BMW;3 Series;1990;325i;Convertible;I6;2,5;168;164;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1990;325i;Sedan;I6;2,5;168;164;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1990;325iX;Sedan;I6;2,5;168;164;all wheel drive;5-speed manual;gas
+BMW;3 Series;1990;325is;Coupe;I6;2,5;168;164;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1990;325i;Coupe;I6;2,5;168;164;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1990;325iX;Coupe;I6;2,5;168;164;all wheel drive;5-speed manual;gas
+BMW;3 Series;1990;M3;Coupe;I4;2,3;192;170;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;318i;Convertible;I4;1,8;138;129;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;325i;Convertible;I6;2,5;189;181;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;318i;Sedan;I4;1,8;138;129;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;325i;Sedan;I6;2,5;189;181;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;318is;Coupe;I4;1,8;138;129;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1994;325is;Coupe;I6;2,5;189;181;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;318i;Sedan;I4;1,9;138;133;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;328i;Sedan;I6;2,8;193;206;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;318ti;Hatchback;I4;1,9;138;133;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;323i;Convertible;I6;2,5;168;181;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;328i;Convertible;I6;2,8;190;206;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;323is;Coupe;I6;2,5;168;181;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;328is;Coupe;I6;2,8;190;206;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;M3;Sedan;I6;3,2;240;236;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;M3;Coupe;I6;3,2;240;236;rear wheel drive;5-speed manual;gas
+BMW;3 Series;1998;M3;Convertible;I6;3,2;240;236;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325i;Sedan;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;330i;Sedan;I6;3;225;214;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325xi;Sedan;I6;2,5;184;175;all wheel drive;5-speed manual;gas
+BMW;3 Series;2002;330xi;Sedan;I6;3;225;214;all wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325Ci;Coupe;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;330Ci;Coupe;I6;3;225;214;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325i;Wagon;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325xi;Wagon;I6;2,5;184;175;all wheel drive;5-speed manual;gas
+BMW;3 Series;2002;325Ci;Convertible;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;330Ci;Convertible;I6;3;225;214;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2002;M3;Coupe;I6;3,2;333;262;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2002;M3;Convertible;I6;3,2;333;262;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;325i;Sedan;I6;3;215;185;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;325xi;Sedan;I6;3;215;185;all wheel drive;6-speed manual;gas
+BMW;3 Series;2006;330i;Sedan;I6;3;255;220;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;330xi;Sedan;I6;3;255;220;all wheel drive;6-speed manual;gas
+BMW;3 Series;2006;325Ci;Coupe;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2006;330Ci;Coupe;I6;3;225;214;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;325xi;Wagon;I6;3;215;185;all wheel drive;6-speed manual;gas
+BMW;3 Series;2006;325Ci;Convertible;I6;2,5;184;175;rear wheel drive;5-speed manual;gas
+BMW;3 Series;2006;330Ci;Convertible;I6;3;225;214;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;M3;Coupe;I6;3,2;333;262;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2006;M3;Convertible;I6;3,2;333;262;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i;Sedan;I6;3;230;200;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i xDrive;Sedan;I6;3;230;200;all wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335i;Sedan;I6;3;300;300;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335i xDrive;Sedan;I6;3;300;300;all wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i;Wagon;I6;3;230;200;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i xDrive;Wagon;I6;3;230;200;all wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i;Coupe;I6;3;230;200;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;328i xDrive;Coupe;I6;3;230;200;all wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335i;Coupe;I6;3;300;300;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335i xDrive;Coupe;I6;3;300;300;all wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335d;Sedan;I6;3;265;425;rear wheel drive;6-speed shiftable automatic;diesel
+BMW;3 Series;2010;328i;Convertible;I6;3;230;200;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;335i;Convertible;I6;3;300;300;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;M3;Sedan;V8;4;414;295;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;M3;Coupe;V8;4;414;295;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2010;M3;Convertible;V8;4;414;295;rear wheel drive;6-speed manual;gas
+BMW;3 Series;2014;320i;Sedan;I4;2;180;184;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;320i xDrive;Sedan;I4;2;180;199;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;328i;Sedan;I4;2;240;255;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;328i SULEV;Sedan;I4;2;240;255;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;328i xDrive;Sedan;I4;2;240;255;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;328i xDrive SULEV;Sedan;I4;2;240;255;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;335i;Sedan;I6;3;300;300;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;335i xDrive;Sedan;I6;3;300;300;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;328d;Sedan;I4;2;181;280;rear wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2014;328d xDrive;Sedan;I4;2;181;280;all wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2014;328d xDrive;Wagon;I4;2;181;280;all wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2014;328i xDrive;Wagon;I4;2;240;255;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2014;ActiveHybrid 3;Sedan;I6;3;335;330;rear wheel drive;8-speed shiftable automatic;hybrid
+BMW;3 Series;2018;320i;Sedan;I4;2;180;200;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;320i xDrive;Sedan;I4;2;180;200;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;330i;Sedan;I4;2;248;258;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;330i xDrive;Sedan;I4;2;248;258;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;340i;Sedan;I6;3;320;330;rear wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;340i xDrive;Sedan;I6;3;320;330;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;328d;Sedan;I4;2;180;280;rear wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2018;328d xDrive;Sedan;I4;2;180;280;all wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2018;328d xDrive;Wagon;I4;2;180;280;all wheel drive;8-speed shiftable automatic;diesel
+BMW;3 Series;2018;330i xDrive;Wagon;I4;2;248;258;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series;2018;330e iPerformance;Sedan;I4;2;;;rear wheel drive;8-speed shiftable automatic;hybrid
+BMW;3 Series;2018;M3;Sedan;I6;3;425;406;rear wheel drive;6-speed manual;gas
+BMW;3 Series Gran Turismo;2014;328i xDrive;Hatchback;I4;2;241;258;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series Gran Turismo;2014;335i xDrive;Hatchback;I6;3;300;295;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series Gran Turismo;2018;330i xDrive;Hatchback;I4;2;248;258;all wheel drive;8-speed shiftable automatic;gas
+BMW;3 Series Gran Turismo;2018;340i xDrive;Hatchback;I6;3;320;330;all wheel drive;8-speed shiftable automatic;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;Base;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;S;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;S;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XLT Lariat;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;rear wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;1990;XL;Truck;I6;4,9;145;265;four wheel drive;;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;Work;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XL;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V6;4,2;205;255;rear wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;XLT;Truck;V8;4,6;220;290;four wheel drive;5-speed manual;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;four wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;four wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Lariat;Truck;V8;4,6;220;290;four wheel drive;4-speed automatic;gas
+Ford;F-150;2000;Harley-Davidson;Truck;V8;5,4;260;350;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2000;SVT Lightning;Truck;V8;5,4;360;440;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;STX;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;STX;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;STX;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;STX;Truck;V8;4,6;248;294;four wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX2;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX4;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;248;294;rear wheel drive;4-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;292;320;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XL;Truck;V8;4,6;292;320;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;XLT;Truck;V8;4,6;292;320;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX2;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX2;Truck;V8;4,6;292;320;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Lariat;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX4;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;FX4;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;King Ranch;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;King Ranch;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;King Ranch;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;King Ranch;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Platinum;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Platinum;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Platinum;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Platinum;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Harley-Davidson;Truck;V8;5,4;310;365;rear wheel drive;6-speed automatic;gas
+Ford;F-150;2010;Harley-Davidson;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2010;SVT Raptor;Truck;V8;5,4;310;365;four wheel drive;6-speed automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Raptor;Truck;V6;3,5;450;510;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XL;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;rear wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V6;3,3;290;265;four wheel drive;6-speed shiftable automatic;gas
+Ford;F-150;2019;XLT;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V6;2,7;325;400;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Lariat;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;King Ranch;Truck;V8;5;395;4000;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;King Ranch;Truck;V8;5;395;4000;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;King Ranch;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;King Ranch;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Platinum;Truck;V8;5;395;4000;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Platinum;Truck;V8;5;395;4000;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Platinum;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Platinum;Truck;V8;5;395;4000;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Raptor;Truck;V6;3,5;450;510;four wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Limited;Truck;V6;3,5;375;470;rear wheel drive;10-speed shiftable automatic;gas
+Ford;F-150;2019;Limited;Truck;V6;3,5;375;470;four wheel drive;10-speed shiftable automatic;gas
+Toyota;Camry;1990;Base;Sedan;I4;2;115;124;front wheel drive;5-speed manual;gas
+Toyota;Camry;1990;LE;Sedan;I4;2;115;124;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1990;LE;Sedan;I4;2;115;124;all wheel drive;4-speed automatic;gas
+Toyota;Camry;1990;Deluxe;Sedan;I4;2;115;124;front wheel drive;5-speed manual;gas
+Toyota;Camry;1990;Deluxe;Sedan;I4;2;115;124;all wheel drive;5-speed manual;gas
+Toyota;Camry;1990;LE V6;Wagon;V6;2,5;156;160;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1990;Deluxe;Wagon;I4;2;115;124;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;LE V6;Coupe;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;DX;Coupe;I4;2,2;130;145;front wheel drive;5-speed manual;gas
+Toyota;Camry;1994;LE;Coupe;I4;2,2;130;145;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;SE V6;Coupe;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;LE V6;Wagon;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;LE;Wagon;I4;2,2;130;145;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;DX;Wagon;I4;2,2;130;145;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;LE V6;Sedan;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;XLE V6;Sedan;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;DX;Sedan;I4;2,2;130;145;front wheel drive;5-speed manual;gas
+Toyota;Camry;1994;LE;Sedan;I4;2,2;130;145;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;SE V6;Sedan;V6;3;188;203;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1994;XLE;Sedan;I4;2,2;130;145;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1998;CE;Sedan;I4;2,2;133;147;front wheel drive;5-speed manual;gas
+Toyota;Camry;1998;CE V6;Sedan;V6;3;194;209;front wheel drive;5-speed manual;gas
+Toyota;Camry;1998;LE;Sedan;I4;2,2;133;147;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1998;LE V6;Sedan;V6;3;194;209;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1998;XLE;Sedan;I4;2,2;133;147;front wheel drive;4-speed automatic;gas
+Toyota;Camry;1998;XLE V6;Sedan;V6;3;194;209;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;LE;Sedan;I4;2,4;157;162;front wheel drive;5-speed manual;gas
+Toyota;Camry;2002;LE;Sedan;I4;2,4;157;162;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;SE;Sedan;I4;2,4;157;162;front wheel drive;5-speed manual;gas
+Toyota;Camry;2002;SE;Sedan;I4;2,4;157;162;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;SE V6;Sedan;V6;3;192;209;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;LE V6;Sedan;V6;3;192;209;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;XLE;Sedan;I4;2,4;157;162;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2002;XLE V6;Sedan;V6;3;192;209;front wheel drive;4-speed automatic;gas
+Toyota;Camry;2006;Standard;Sedan;I4;2,4;154;160;front wheel drive;5-speed manual;gas
+Toyota;Camry;2006;Standard;Sedan;I4;2,4;154;160;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;LE;Sedan;I4;2,4;154;160;front wheel drive;5-speed manual;gas
+Toyota;Camry;2006;LE;Sedan;I4;2,4;154;160;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;SE;Sedan;I4;2,4;154;160;front wheel drive;5-speed manual;gas
+Toyota;Camry;2006;SE;Sedan;I4;2,4;154;160;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;LE V6;Sedan;V6;3;190;197;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;XLE;Sedan;I4;2,4;154;160;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;SE V6;Sedan;V6;3,3;210;220;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2006;XLE V6;Sedan;V6;3;190;197;front wheel drive;5-speed automatic;gas
+Toyota;Camry;2010;Base;Sedan;I4;2,5;169;167;front wheel drive;6-speed manual;gas
+Toyota;Camry;2010;Base;Sedan;I4;2,5;169;167;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;LE;Sedan;I4;2,5;169;167;front wheel drive;6-speed manual;gas
+Toyota;Camry;2010;LE;Sedan;I4;2,5;169;167;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;SE;Sedan;I4;2,5;179;171;front wheel drive;6-speed manual;gas
+Toyota;Camry;2010;SE;Sedan;I4;2,5;179;171;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;LE V6;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;SE V6;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;XLE;Sedan;I4;2,5;169;167;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2010;XLE V6;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;L;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;L;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;LE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;LE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;XLE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;XLE;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;XLE;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;XLE;Sedan;V6;3,5;268;248;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE Sport;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2014;SE Sport;Sedan;I4;2,5;178;170;front wheel drive;6-speed shiftable automatic;gas
+Toyota;Camry;2018;L;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;LE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;SE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;XLE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;XLE;Sedan;V6;3,5;301;267;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;XSE;Sedan;I4;2,5;206;186;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2018;XSE;Sedan;V6;3,5;301;267;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;L;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;LE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;SE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;XLE;Sedan;I4;2,5;203;184;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;XLE;Sedan;V6;3,5;301;267;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;XSE;Sedan;I4;2,5;206;186;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry;2019;XSE;Sedan;V6;3,5;301;267;front wheel drive;8-speed shiftable automatic;gas
+Toyota;Camry Hybrid;2010;Base;Sedan;I4;2,4;187;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2014;LE;Sedan;I4;2,5;200;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2014;LE;Sedan;I4;2,5;200;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2014;XLE;Sedan;I4;2,5;200;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2014;XLE;Sedan;I4;2,5;200;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2014;SE Limited Edition;Sedan;I4;2,5;200;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2018;LE;Sedan;I4;2,5;208;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2018;SE;Sedan;I4;2,5;208;;front wheel drive;continuously variable-speed automatic;hybrid
+Toyota;Camry Hybrid;2018;XLE;Sedan;I4;2,5;208;;front wheel drive;continuously variable-speed automatic;hybrid

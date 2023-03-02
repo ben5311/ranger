@@ -1,0 +1,9 @@
+values:
+  cases:
+    text: "Lorem Ipsum dolor sit amet."
+    lowercase: lower($text)
+    uppercase: upper($text)
+output: $cases
+
+
+

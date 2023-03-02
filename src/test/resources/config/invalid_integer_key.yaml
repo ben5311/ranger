@@ -1,0 +1,5 @@
+values:
+  User:
+    name: "Max"
+    1: 2
+output: $User

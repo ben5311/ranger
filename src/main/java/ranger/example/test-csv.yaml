@@ -1,0 +1,7 @@
+values:
+  sequential: csv("../../../../test/resources/test.csv")
+  random: csvRandom("../../../../test/resources/test.csv")
+output: list([$sequential.id, $random.username])
+
+
+

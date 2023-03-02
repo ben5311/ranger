@@ -1,0 +1,19 @@
+values:
+
+  _:
+    addr: csvWeighted("address.csv", ';', "gewicht")   #contains strasse;gewicht;ort;zusatz;plz;vorwahl;kennzeichen;bundesland
+    house_number:
+      without_letter: random(1..300, false, normal(15, 40, 1, 300))
+      with_letter: string("{}{}", $without_letter, random('a'..'i', false, normal(2, 1, 1, 9)))
+      mixed: weighted([($without_letter, 90), ($with_letter, 10)])
+  address:
+    state: $_.addr.bundesland
+    state_long: map($state => ["BW":"Baden-Württemberg", "BY":"Bayern", "BE":"Berlin", "BB":"Brandenburg", "HB":"Bremen", "HH":"Hamburg", "HE":"Hessen", "MV":"Mecklenburg-Vorpommern", "NI":"Niedersachsen", "NW":"Nordrhein-Westfalen", "RP":"Rheinland-Pfalz", "SL":"Saarland", "SN":"Sachsen", "ST":"Sachsen-Anhalt", "SH":"Schleswig-Holstein", "TH":"Thüringen", "default":"null"])
+    license_code: $_.addr.kennzeichen
+    prefix: $_.addr.vorwahl
+    zip: $_.addr.plz
+    city: string(map($_.addr.zusatz => ["":"{}{}", "default":"{} {}"]), $_.addr.ort, $_.addr.zusatz)
+    street: $_.addr.strasse
+    house_number: $_.house_number.mixed
+
+output: $address

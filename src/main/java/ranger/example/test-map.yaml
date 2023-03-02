@@ -1,0 +1,13 @@
+values:
+  male_firstname: random(["Elias", "Emil", "Linus", "Theo", "Anton", "Paul", "Felix", "Samuel", "Jonas", "Markus", "Liam", "Tim", "Julian", "Leo", "Jakob", "Levi", "Jan", "Lukas", "Leon", "Philipp", "Alexander", "Thomas", "Daniel", "Valentin", "Lio", "Milo", "Michael", "David", "Adrian", "Jonathan", "Matteo", "Simon", "Noah", "Matthias", "Ben", "Levin", "Max", "Oskar", "Luan", "Jasper", "Aaron", "Mailo", "Joris", "Milan", "Marvin", "Luca", "Remmer", "Finn", "Maximilian", "Lorenz"])
+  female_firstname: random(["Laura", "Emilia", "Lina", "Anna", "Ida", "Lena", "Ella", "Leonie", "Amelie", "Mia", "Emma", "Lea", "Julia", "Sarah", "Juna", "Nora", "Mila", "Ava", "Lia", "Marie", "Vera", "Antonia", "Amalia", "Johanna", "Maria", "Isabella", "Sophie", "Hannah", "Katharina", "Lara", "Emily", "Sophia", "Alina", "Luisa", "Nele", "Mina", "Mara", "Lilli", "Nina", "Leni", "Hanna", "Mine", "Mira", "Cataleya", "Ina", "Mathilda", "Sandra", "Elena"])
+  sex: weighted([("männlich", 40), ("weiblich", 60)])
+  firstname: map($sex => ["männlich":$male_firstname, "weiblich":$female_firstname])    # hier findet das mappen statt
+  lastname: random(["Müller", "Schmidt", "Schneider", "Fischer", "Meyer", "Weber", "Wagner", "Becker", "Schulz", "Hoffmann", "Schäfer", "Koch", "Bauer", "Richter", "Klein", "Schröder", "Wolf", "Neumann", "Schwarz", "Zimmermann", "Krüger", "Braun", "Hofmann", "Schmitz", "Hartmann", "Lange", "Schmitt", "Werner", "Krause", "Meier", "Schmid", "Lehmann", "Schulze", "Maier", "Köhler", "Herrmann", "Walter", "Körtig", "Mayer", "Huber", "Kaiser", "Fuchs", "Peters", "Möller", "Scholz", "Lang", "Weiß", "Jung", "Hahn", "Vogel", "Friedrich", "Günther", "Keller", "Schubert", "Berger", "Frank", "Roth", "Beck", "Winkler", "Lorenz", "Baumann", "Albrecht", "Ludwig", "Franke", "Simon", "Böhm", "Schuster", "Schumacher", "Kraus", "Winter", "Otto", "Krämer", "Stein", "Vogt", "Martin", "Jäger", "Groß", "Sommer", "Brandt", "Haas", "Heinrich", "Seidel", "Schreiber", "Schulte", "Graf", "Dietrich", "Ziegler", "Engel", "Kühn", "Kuhn", "Pohl", "Horn", "Thomas", "Busch", "Wolff", "Sauer", "Bergmann", "Pfeiffer", "Voigt", "Ernst", "Zimmermann"])
+  User:
+    age: random(18..60)
+    sex: $sex
+    name: string("{} {}", $firstname, $lastname)
+output: $User
+
+

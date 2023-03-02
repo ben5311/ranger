@@ -1,0 +1,13 @@
+values:
+
+  _:
+    country: csvRandom("country.csv", ';')  #contains english_name;english_longname;german_name;german_longname;own_name;iso3;iso2;capital;population;tld;currency_name;currency_code;currency_symbol
+    iban: # Data from http://www.tbg5-finance.org/?ibandocs.shtml/
+      pattern: map(lower($country.iso2) => ["ad":"\d{8}[A-Z\d]{12}", "ae":"\d{19}", "al":"\d{8}[A-Z\d]{16}", "at":"\d{16}", "az":"[A-Z]{4}[A-Z\d]{20}", "ba":"\d{16}", "be":"\d{12}", "bg":"[A-Z]{4}\d{6}[A-Z\d]{8}", "bh":"[A-Z]{4}[A-Z\d]{14}", "br":"\d{8}\d{5}\d{10}[A-Z]{1}[A-Z\d]{1}", "ch":"\d{5}[A-Z\d]{12}", "cr":"0\d{3}\d{14}", "cy":"\d{8}[A-Z\d]{16}", "cz":"\d{20}", "de":"\d{18}", "dk":"\d{14}", "do":"[A-Z]{4}\d{20}", "ee":"\d{16}", "es":"\d{20}", "fi":"\d{14}", "fo":"\d{14}", "fr":"\d{10}[A-Z\d]{11}\d{2}", "gb":"[A-Z]{4}\d{14}", "ge":"[A-Z]{2}\d{16}", "gi":"[A-Z]{4}[A-Z\d]{15}", "gl":"\d{14}", "gr":"\d{7}[A-Z\d]{16}", "gt":"[A-Z\d]{4}\d{2}\d{2}[A-Z\d]{16}", "hr":"\d{17}", "hu":"\d{24}", "ie":"[A-Z]{4}\d{14}", "il":"\d{19}", "is":"\d{22}", "it":"[A-Z]\d{10}[A-Z\d]{12}", "kw":"[A-Z]{4}\d{22}", "kz":"\d{3}[A-Z\d]{13}", "lb":"\d{4}[A-Z\d]{20}", "li":"\d{5}[A-Z\d]{12}", "lt":"\d{16}", "lu":"\d{3}[A-Z\d]{13}", "lv":"[A-Z]{4}[A-Z\d]{13}", "mc":"\d{10}[A-Z\d]{11}\d{2}", "md":"[A-Z]{2}[A-Z\d]{18}", "me":"\d{18}", "mk":"\d{3}[A-Z\d]{10}\d{2}", "mr":"\d{23}", "mt":"[A-Z]{4}\d{5}[A-Z\d]{18}", "mu":"[A-Z]{4}\d{19}[A-Z]{3}", "nl":"[A-Z]{4}\d{10}", "no":"\d{11}", "pk":"[A-Z]{4}[A-Z\d]{16}", "pl":"\d{8}[A-Z\d]{16}", "ps":"[A-Z]{4}[A-Z\d]{21}", "pt":"\d{21}", "qa":"[A-Z]{4}[A-Z\d]{21}", "ro":"[A-Z]{4}[A-Z\d]{16}", "rs":"\d{18}", "sa":"\d{2}[A-Z\d]{18}", "se":"\d{20}", "si":"\d{15}", "sk":"\d{20}", "sm":"[A-Z]\d{10}[A-Z\d]{12}", "tl":"\d{19}", "tn":"\d{20}", "tr":"\d{5}[A-Z\d]{17}", "ua":"\d{25}", "vg":"[A-Z]{4}\d{16}", "xk":"\d{16}", "default":"[A-Z\d]{4}\d{7}([A-Z0-9]?){0,16}"])
+      full: string("{}{}{}", $country.iso2, randomContentString(2, ['0'..'9']), xeger($pattern))
+
+  wrapper:
+    iban: $_.iban.full
+  country: merge([$_.country, $wrapper])
+
+output: $country

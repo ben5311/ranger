@@ -1,0 +1,6 @@
+values:
+  text: "Alte Würzberger Straße"
+output: list([$text, ascii($text)])
+
+
+

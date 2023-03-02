@@ -1,0 +1,20 @@
+values:
+
+  _:
+    car: csvWeighted("car.csv", ';', "anzahl")    #contains hersteller;name;typnr;kw;kraftstoff;anzahl
+    addr: import("address.yaml")
+    license:
+      prefix: $addr.license_code
+      full: string("{}-{}-{}", $prefix, randomContentString(random(1..3, false, normal(2.3, 0.25, 1, 3)), ['A'..'Z']), randomContentString(random(1..5, false, normal(3.5, 0.4, 1, 5)), ['0'..'9']))
+
+  car:
+    brand: $_.car.hersteller
+    model: $_.car.name
+    type_number: $_.car.typnr
+    power_kw: $_.car.kw
+    fuel: $_.car.kraftstoff
+    color: weighted([("black", 25), ("silver", 20), ("grey", 20), ("blue", 10), ("white", 7), ("red", 5), ("orange", 5), ("beige", 3), ("green", 2), ("yellow", 2), ("purple", 1)])
+    transmission: random(["automatic", "manual"])
+    license_plate: $_.license.full
+
+output: $car

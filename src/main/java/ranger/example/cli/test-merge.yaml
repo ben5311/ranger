@@ -1,0 +1,18 @@
+values:
+  accounts:
+    userA:
+      name: random(["Max", "Jan", "Tom", "Peter"])
+      IBAN: random(["DE7294762849278276393", "DE2305837482348382730", "AU9273362273362847322"])
+  creditworthiness:
+    userA:
+      score: random(float(60.0)..float(100.0))
+  MergedUser: merge([$accounts.userA, $creditworthiness.userA])   # merge() combines two or more objects. MergedUser here gets elements "name", "IBAN" and "score"
+
+output: list([$accounts.userA, $creditworthiness.userA, $MergedUser])   # you can specify multiple output files via list([...]) output
+
+output_options:
+  count: 20,20,10       # output count can be given for each output file separately as well (but does not need to)
+  format: "csv"         # output format is the same for all output files
+
+
+

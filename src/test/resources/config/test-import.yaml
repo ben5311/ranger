@@ -1,0 +1,5 @@
+values:
+  Entity:
+    id: 1
+    name: "Max Mustermann"
+output: $Entity

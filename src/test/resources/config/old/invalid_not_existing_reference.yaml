@@ -1,0 +1,12 @@
+values:
+    EntityA:
+        id: circular(10000..19999, 1)
+        username: random(["max123", "klaus345", "nick999", "test76", "karl3"])
+        income: random(450..3500)
+output: $EntityB
+
+output_count: 10
+output_format: "csv"
+
+
+

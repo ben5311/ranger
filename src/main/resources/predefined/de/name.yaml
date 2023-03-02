@@ -1,0 +1,15 @@
+values:
+
+  _:
+    female_firstname: csvRandom("name_firstnames_female.csv")
+    male_firstname: csvRandom("name_firstnames_male.csv")
+    lastname: csvRandom("name_lastnames.csv")
+    username: csvRandom("../us/usernames.csv")
+  names:
+    female_firstname: $_.female_firstname.c0
+    male_firstname: $_.male_firstname.c0
+    firstname: random([$female_firstname, $male_firstname])
+    lastname: $_.lastname.c0
+    username: $_.username.c0
+
+output: $names

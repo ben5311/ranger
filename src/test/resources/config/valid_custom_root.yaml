@@ -1,0 +1,7 @@
+Testdata:
+  root:
+    values:
+      User:
+        name: Max
+        age: 18
+    output: $User

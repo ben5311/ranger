@@ -1,0 +1,17 @@
+values:
+
+  _:
+    addr: import("address.yaml")
+    car: csvRandom("car.csv", ';')    #contains make;model;year;trim;description;body_type;cylinders;engine_size;hp;torque;drive_type;transmission;engine_type
+    license:
+      pattern: map($addr.state_id => ["AL":"(\d[A-Z]{2}\d{3}|\d{2}[A-Z]\d{4})", "AK":"[A-Z]{3} \d{3}", "AZ":"[A-Z]{3}\d{4}", "AR":"\d{3} [A-Z]{3}", "CA":"\d[A-Z]{3}\d{3}", "CO":"\d{3}-[A-Z]{3}", "CT":"[A-Z]{2}\d{5}", "DE":"\d{4,6}", "FL":"[A-Z]{3} [A-Z]\d{2}", "GA":"[A-Z]{3}\d{4}", "HI":"[A-GJNPR-Y][A-Z]{2} \d{3}", "ID":"\d?[A-Z] [A-Z\d]{2}\d{3,4}", "IL":"[A-Z]{2} \d{5}", "IN":"\d{3}[A-Z]{1,3}", "IA":"[A-Z]{3} \d{3}", "KS":"\d{3} [A-Z]{3}", "KY":"\d{3} [A-Z]{3}", "LA":"\d{3} [A-Z]{3}", "ME":"\d{2,4} [A-Z]{2}", "MD":"\d[A-Z]{2}\d{4}", "MA":"\d{3} [A-Z]{3}", "MI":"[A-Z]{3} \d{4}", "MN":"\d{3}-[A-Z]{3}", "MS":"[A-Z]{3} \d{3}", "MO":"[A-Z]{2}\d [A-Z]\d[A-Z\d]", "MT":"\d\d?-\d{2,5}[A-Z]", "NE":"[A-Z]{3} \d{3}", "NV":"\d{3} [A-Z]\d{2}", "NH":"\d{3} \d{4}", "NJ":"[A-Z]\d{2}-[A-Z]{3}", "NM":"\d{3}-[A-Z]{3}", "NY":"[A-Z]{3}-\d{4}", "NC":"[A-Z]{3}-\d{4}", "ND":"\d{3} [A-Z]{3}", "OH":"[A-Z]{3} \d{4}", "OK":"[A-Z]{3}-\d{3}", "OR":"\d{3} [A-Z]{3}", "PA":"[A-Z]{3}-\d{4}", "RI":"\d{6}", "SC":"[A-Z]{3} \d{3}", "SD":"\d[A-Z\d]{2} \d{3}", "TN":"\d[A-Z]\d-\d[A-Z]\d", "TX":"[A-Z]{3}-\d{4}", "UT":"\d[A-Z]\d[A-Z]{2}", "VT":"[A-Z]{3} \d{3}", "VA":"[A-Z]{3}-\d{4}", "WA":"[A-Z]{3}\d{4}", "WV":"[\dA-Z][A-Z]{2} \d{3}", "WI":"[A-Z]{3}-\d{4}", "WY":"\d?\d-\d{4}[A-Z\d]", "default":"\d{3} [A-Z]{3}"])
+      result: xeger($pattern))
+
+  wrapper:
+    color: weighted([("black", 25), ("silver", 20), ("grey", 20), ("blue", 10), ("white", 7), ("red", 5), ("orange", 5), ("beige", 3), ("green", 2), ("yellow", 2), ("purple", 1)])
+    license_plate: $_.license.result
+  car: merge([$_.car, $wrapper])
+
+output: $car
+
+

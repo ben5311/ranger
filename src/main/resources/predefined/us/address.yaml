@@ -1,0 +1,14 @@
+values:
+
+  _:
+    addr: csvWeighted("address.csv", ';', "population")   #contains zip;city;state_id;state_name;population;county_name
+    street: csvRandom("address_streets.csv", ';')  #contains name;count
+  address:
+    state_id: $_.addr.state_id
+    state_name: $_.addr.state_name
+    city: $_.addr.city
+    zip: $_.addr.zip
+    house_number: random(100..50000, false, normal(5000, 2500, 100, 50000))
+    street: $_.street.name
+
+output: $address

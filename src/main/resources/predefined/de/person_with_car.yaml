@@ -1,0 +1,9 @@
+values:
+
+  _:
+    person: import("person.yaml")
+    car:
+      car: import("car.yaml")
+  person_with_car: merge([$_.person, $_.car])
+
+output: $person_with_car

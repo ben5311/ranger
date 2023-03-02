@@ -1,0 +1,13 @@
+values:
+  names: import("../names.yaml")
+
+output: $names    # name of the output reference will be the output file name
+
+output_options:
+  count: 30           # output count
+  format: "csv"       # format of output file (csv, json, jsonl, elastic_json)
+  csv: # csv options
+    delimiter: ";"
+  elastic_json: # elastic_json options
+    index: "my_index"
+

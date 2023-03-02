@@ -1,0 +1,7 @@
+values:
+  random: random(date("2019-01-01")..nowDate())
+  circular: circular(date("2019-01-01")..date("2019-12-31"), 1)
+output: list([$circular, $random])
+
+
+
